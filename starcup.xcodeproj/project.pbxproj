@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2D81896328780F91007F1963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81896228780F91007F1963 /* AppDelegate.swift */; };
-		2D81896528780F91007F1963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81896428780F91007F1963 /* SceneDelegate.swift */; };
-		2D81896728780F91007F1963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81896628780F91007F1963 /* ViewController.swift */; };
+		2D81896728780F91007F1963 /* CupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81896628780F91007F1963 /* CupViewController.swift */; };
 		2D81896A28780F91007F1963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D81896828780F91007F1963 /* Main.storyboard */; };
 		2D81896C28780F93007F1963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D81896B28780F93007F1963 /* Assets.xcassets */; };
 		2D81896F28780F93007F1963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D81896D28780F93007F1963 /* LaunchScreen.storyboard */; };
+		2D81897728781058007F1963 /* CupScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D81897628781058007F1963 /* CupScene.sks */; };
+		2D81897928781170007F1963 /* CupScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81897828781170007F1963 /* CupScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D81895F28780F91007F1963 /* starcup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starcup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D81896228780F91007F1963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D81896428780F91007F1963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D81896628780F91007F1963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D81896628780F91007F1963 /* CupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupViewController.swift; sourceTree = "<group>"; };
 		2D81896928780F91007F1963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D81896B28780F93007F1963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D81896E28780F93007F1963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D81897028780F93007F1963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D81897628781058007F1963 /* CupScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CupScene.sks; sourceTree = "<group>"; };
+		2D81897828781170007F1963 /* CupScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D14F753287968FD00CE7882 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2D81896828780F91007F1963 /* Main.storyboard */,
+				2D81896628780F91007F1963 /* CupViewController.swift */,
+				2D81896D28780F93007F1963 /* LaunchScreen.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D14F7542879692000CE7882 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2D81896228780F91007F1963 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		2D14F7552879693200CE7882 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2D81897628781058007F1963 /* CupScene.sks */,
+				2D81897828781170007F1963 /* CupScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		2D81895628780F91007F1963 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +85,10 @@
 		2D81896128780F91007F1963 /* starcup */ = {
 			isa = PBXGroup;
 			children = (
-				2D81896228780F91007F1963 /* AppDelegate.swift */,
-				2D81896428780F91007F1963 /* SceneDelegate.swift */,
-				2D81896628780F91007F1963 /* ViewController.swift */,
-				2D81896828780F91007F1963 /* Main.storyboard */,
+				2D14F7552879693200CE7882 /* Scenes */,
+				2D14F7542879692000CE7882 /* SupportFiles */,
+				2D14F753287968FD00CE7882 /* Screens */,
 				2D81896B28780F93007F1963 /* Assets.xcassets */,
-				2D81896D28780F93007F1963 /* LaunchScreen.storyboard */,
 				2D81897028780F93007F1963 /* Info.plist */,
 			);
 			path = starcup;
@@ -126,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D81896F28780F93007F1963 /* LaunchScreen.storyboard in Resources */,
+				2D81897728781058007F1963 /* CupScene.sks in Resources */,
 				2D81896C28780F93007F1963 /* Assets.xcassets in Resources */,
 				2D81896A28780F91007F1963 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D81896728780F91007F1963 /* ViewController.swift in Sources */,
+				2D81896728780F91007F1963 /* CupViewController.swift in Sources */,
 				2D81896328780F91007F1963 /* AppDelegate.swift in Sources */,
-				2D81896528780F91007F1963 /* SceneDelegate.swift in Sources */,
+				2D81897928781170007F1963 /* CupScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +320,6 @@
 				INFOPLIST_FILE = starcup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +347,6 @@
 				INFOPLIST_FILE = starcup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
